@@ -12,5 +12,5 @@ export class HeaderComponent {
   //   return "This is method pass to the String interpolation."
   // }
   source: string =
-    'https://img.freepik.com/free-vector/pop-art-girl-holding-shopping-bags_88138-217.jpg?w=2000';
+    './assets/shopping.gif';
 }
