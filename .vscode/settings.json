@@ -1,0 +1,9 @@
+{
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#000000",
+    "tab.unfocusedActiveBorder": "#000000",
+    "tab.activeBackground": "#4c867f",
+    "minimap.background": "#00000000",
+    "scrollbar.shadow": "#00000000"
+  }
+}
