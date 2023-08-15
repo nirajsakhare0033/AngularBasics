@@ -15,12 +15,14 @@
       </div>
     </div>
     <div class="option">
-      <button class="btn_product" style="background-color: rgb(39, 235, 39);" >Show Details</button>
-      <button class="btn_product" style="background-color: yellow;" *ngIf="p.available==='Available'; else notifyme">Buy Now</button>
+      <button class="btn btn-danger" style="background-color: rgb(39, 235, 39);" >Show Details</button>
+      <button class="btn btn-danger" style="background-color: yellow;" *ngIf="p.available ==='Available'; else notifyme">Buy Now</button>
 
       <ng-template #notifyme>
-        <button class="btn_product" style="background-color: rgb(255, 74, 74);" >Notify Me</button>
+        <button class="btn btn-danger" style="background-color: rgb(255, 74, 74);" >Notify Me</button>
       </ng-template>
+      
     </div>
+    
   </div>
 </div>

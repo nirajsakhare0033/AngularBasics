@@ -10,6 +10,7 @@ import { NotificationComponent } from './notification/notification.component';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
 import { ProductsComponent } from './products/products.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [AppComponent, 
@@ -18,7 +19,7 @@ import { ProductsComponent } from './products/products.component';
     HeaderComponent, NotificationComponent, SearchComponent, ProductsComponent],
   imports: [BrowserModule, 
     AppRoutingModule, 
-    FormsModule],
+    FormsModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
 })
