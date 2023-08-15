@@ -9,12 +9,13 @@ import { HeaderComponent } from './header/header.component';
 import { NotificationComponent } from './notification/notification.component';
 import { SearchComponent } from './search/search.component';
 import { FormsModule } from '@angular/forms';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [AppComponent, 
     ContainerComponent, 
     NavComponent, 
-    HeaderComponent, NotificationComponent, SearchComponent],
+    HeaderComponent, NotificationComponent, SearchComponent, ProductsComponent],
   imports: [BrowserModule, 
     AppRoutingModule, 
     FormsModule],
