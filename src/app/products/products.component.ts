@@ -43,7 +43,7 @@ export class ProductsComponent {
       id: 5,
       name: 'Gold Watch',
       price: '812',
-      color: 'yello',
+      color: 'yellow',
       available: 'Available',
       image: 'assets/apple-iphone-12-r1.jpg',
     },

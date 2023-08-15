@@ -4,18 +4,18 @@
 
 <div *ngFor="let p of products let i=index">
   <!-- <p>{{ i+1 }}</p> -->
-  <div class="products-container">
+  <div class="products-container" [ngStyle]="{backgroundColor: p.available === 'Available' ? '#90EE90' : '#FF7276'}">
     <div class="image-container"><img [src]="p.image" style="max-height: 50px; max-width: 50px" /></div>
     <div>
       <div class="name-conatainer"><h5>{{p.name}}</h5></div>
       <div class="detailContainer">
-        <div class="detais">{{p.available}}</div>
+        <div class="detais" [ngStyle]="{color: p.available === 'Available' ? 'Green' : 'Red'}">{{p.available}}</div>
         <div class="detais"><b>Price:</b>${{ p.price}}</div>
         <div class="detais"><b>Color:</b>{{ p.color}}</div>
       </div>
     </div>
     <div class="option">
-      <button class="btn_product" style="background-color: rgb(39, 235, 39);">Show Details</button>
+      <button class="btn_product" style="background-color: rgb(39, 235, 39);" >Show Details</button>
       <button class="btn_product" style="background-color: yellow;">Buy Now</button>
     </div>
   </div>
